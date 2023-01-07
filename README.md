@@ -24,7 +24,7 @@ Sentiment Analysis using Twitter API (tweepy)
     - Then we use NLTK PorterStemmer to perform stemming  i.e removing different variations of words with the same meaning such as "loved", "love", etc
 
 
--For this part we have used the bag of words Model , it constructs a word presence feature set from all the words of an instance. The steps involved in this are :
+- For this part we have used the bag of words Model , it constructs a word presence feature set from all the words of an instance. The steps involved in this are :
     - Collect Data 
     - Design Vocabulary : list of all the words
     - Create Document Vectors : with values as 1 (present) and 0 (absent)
